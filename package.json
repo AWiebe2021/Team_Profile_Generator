@@ -1,0 +1,28 @@
+{
+  "name": "team_profile_generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AWiebe2021/Team_Profile_Generator.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AWiebe2021/Team_Profile_Generator/issues"
+  },
+  "homepage": "https://github.com/AWiebe2021/Team_Profile_Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
