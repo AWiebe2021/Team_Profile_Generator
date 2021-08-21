@@ -14,7 +14,7 @@ const generateTeam = teamArr => {
   <div class="row">
   `;
   mgrArray.forEach((emp, ind) => {
-    genderPic = "./src/" + emp.empId + ".jpg";
+    genderPic = "../src/" + emp.empId + ".jpg";
     cont = cont + `
       <div class="card mx-auto col-sm-5">
       <img src="${genderPic}" alt="Avatar" style="width:50%">
@@ -32,7 +32,7 @@ const generateTeam = teamArr => {
   <div class="row">
   `;
   engArray.forEach((emp, ind) => {
-    genderPic = "./src/" + emp.empId + ".jpg";
+    genderPic = "../src/" + emp.empId + ".jpg";
     cont = cont + `
       <div class="card mx-auto col-sm-4">
       <img src="${genderPic}" alt="Avatar" style="width:50%">
@@ -40,7 +40,7 @@ const generateTeam = teamArr => {
           <h4><b>Engineer: ${emp.name}</b></h5>
           <p>Employee ID: ${emp.empId}</p>
           <p>Email: <a href = "mailto: ${emp.empEmail}">${emp.empEmail}</a></p>
-          <p>GitHub: <a href = "https://github.com/"${emp.github} >${emp.github}</a></p>
+          <p>GitHub: <a href = "https://github.com/"${emp.github} target="_blank">${emp.github}</a></p>
         </div>
       </div>
     `;
@@ -50,7 +50,7 @@ const generateTeam = teamArr => {
   <div class="row">
   `;
   intArray.forEach((emp, ind) => {
-    genderPic = "./src/" + emp.empId + ".jpg";
+    genderPic = "../src/" + emp.empId + ".jpg";
     cont = cont + `
       <div class="card mx-auto col-sm-3">
       <img src="${genderPic}" alt="Avatar" style="width:50%">
@@ -88,7 +88,7 @@ module.exports = templateData => {
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="./dist/style.css">
+    <link rel="stylesheet" href="./style.css">
   </head>
   
   <body>
