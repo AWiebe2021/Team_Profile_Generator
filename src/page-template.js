@@ -14,8 +14,7 @@ const generateTeam = teamArr => {
   <div class="row">
   `;
   mgrArray.forEach((emp, ind) => {
-//    genderPic = "./src/img_avatar" + (Math.floor(Math.random() * 2) + 1) + ".png";
-genderPic = "./src/" + emp.empId + ".jpg";
+    genderPic = "./src/" + emp.empId + ".jpg";
     cont = cont + `
       <div class="card mx-auto col-sm-5">
       <img src="${genderPic}" alt="Avatar" style="width:50%">
